@@ -9,7 +9,7 @@ const app = new koa();
 app.use(logger());
 
 // 静态资源文件
-app.use(koastatic(path.resolve(__dirname, 'dist')));
+app.use(koastatic(path.resolve(__dirname, 'www')));
 
 
 const port = 3000;
